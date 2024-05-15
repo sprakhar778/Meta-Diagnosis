@@ -88,5 +88,3 @@ def pneumonia():
     conf_score = session.pop('conf_score', 'Unknown')
     return render_template('pneumonia.html', class_name=class_name, conf_score=conf_score)
 
-if __name__ == '__main__':
-    app.run(debug=True)
