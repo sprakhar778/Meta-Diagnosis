@@ -15,12 +15,12 @@ app.secret_key = random_secret_key
 def classify(image, model, class_names):
     """
     This function takes an image, a model, and a list of class names and returns the predicted class and confidence
-    score of the images.
+    score of the image.
 
     Parameters:
-        image (PIL.Image.Image): An image to be classified.
-        model (tensorflow.keras.Model): A trained machine learning model for image classification.
-        class_names (list): A list of class names corresponding to the classes that the model can predict.
+        image (PIL.Image.Image):- An image to be classified.
+        model (tensorflow.keras.Model):- A trained machine learning model for image classification.
+        class_names (list):- A list of class names corresponding to the classes that the model can predict.
 
     Returns:
         A tuple of the predicted class name and the confidence score for that prediction.
