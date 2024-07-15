@@ -15,7 +15,7 @@ app.secret_key = random_secret_key
 def classify(image, model, class_names):
     """
     This function takes an image, a model, and a list of class names and returns the predicted class and confidence
-    score of the image.
+    score of the images.
 
     Parameters:
         image (PIL.Image.Image): An image to be classified.
