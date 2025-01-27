@@ -6,7 +6,7 @@ This is a simple web application that uses a trained model to predict if a perso
 
 1. Clone the repository
     ```bash
-    git clone https://github.com/dev-mdirfan/Pneumonia-X-ray-Detection-Flask.git
+    git clone https://github.com/sprakhar778/Meta-Diagnosis.git
     ```
 
 2. Create a virtual environment
