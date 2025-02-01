@@ -92,7 +92,7 @@ The model was trained using the following hyperparameters:
 - Test set size: 624 images
 - Training time: 1 hour
 - Accuracy: 0.90
-- AUC: 0.98
+- AUC: 0.87.5
 - F1 score: 0.86
 - Precision: 0.89
 - Recall: 0.87
