@@ -83,7 +83,7 @@ The model was trained using the following hyperparameters:
 - Optimizer: Adam
 - Loss function: Binary Crossentropy
 - Learning rate: 0.0001
-- Batch size: 32
+- Batch size: 128
 - Epochs: 12
 - Early stopping: 5
 - Image size: 150x150
